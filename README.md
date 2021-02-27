@@ -8,14 +8,14 @@
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-![](Theater_Outcomes_vs_Launch.png)
+![](Resources/Theater_Outcomes_vs_Launch.png)
 * For this analysis, I pulled the data into a pivot table in order to sort and filter the data that would be needed in the chart.  A "Line with Markers" chart was used becuase the line graph helps you to easily ascertain outcomes based on launch dates varying by month. The markers help you to more easily pinpoint the values along the lines.
 ### Analysis of Outcomes Based on Goals
-![](Outcome_vs_goals.png)
+![](Resources/Outcome_vs_goals.png)
 * In order to analyze outcomes based on funding goals, I had to make a subset of data in order to group the campaigns based on funding goal intervals. This grouping then allowed for a much clearer visualization of the data. I used multiple formulas including, COUNTIFS and SUM. 
 ### Challenges and Difficulties Encountered
-    * While I had no challenges with this project, there are some difficulties that could slow you down tremendously. For instance, when working on pulling the subset of data for the Outcomes Based on Goals chart, you would need to know how to nest your formulas so that the columns don't automatically change when copying the formula to another cell. This saves you a ton of time when replicationg a formula throughout the sheet.
-    *Another challenge could have been learning how to use the COUNTIFS formula properly. Having to make the formula count based on more than one range is slightly more difficult to set up.
+1. While I had no challenges with this project, there are some difficulties that could slow you down tremendously. For instance, when working on pulling the subset of data for the Outcomes Based on Goals chart, you would need to know how to nest your formulas so that the columns don't automatically change when copying the formula to another cell. This saves you a ton of time when replicationg a formula throughout the sheet.
+2. Another challenge could have been learning how to use the "COUNTIFS" formula properly. Having to make the formula count based on more than one range is slightly more difficult to set up.
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
